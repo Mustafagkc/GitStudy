@@ -1,0 +1,24 @@
+#server portu ve hata mesajlarinin gosterilmesi icin ayarlar
+server:
+  port: 8080
+  error:
+    include-binding-errors: always
+    include-message: always
+    include-stacktrace: never
+
+#spring boot uygulamasi icin ayarlar
+spring:
+  application:
+    name: GitStudy
+  datasource:
+    url: jdbc:postgresql://localhost:5432/git_study
+    username: techpro
+    password: password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
