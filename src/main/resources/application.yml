@@ -1,6 +1,6 @@
 #server portu ve hata mesajlarinin gosterilmesi icin ayarlar
 server:
-  port: 8080
+  port: 808
   error:
     include-binding-errors: always
     include-message: always
