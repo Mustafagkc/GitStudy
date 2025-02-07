@@ -1,11 +1,4 @@
 package com.example.domain;
 
-public class Guest {
-
-
-
-
-
-
-
+public class Adress {
 }

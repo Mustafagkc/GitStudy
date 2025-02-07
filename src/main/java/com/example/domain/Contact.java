@@ -1,4 +1,11 @@
 package com.example.domain;
 
-public class Rezervetion {
+public class Contact {
+
+
+
+
+
+
+
 }
